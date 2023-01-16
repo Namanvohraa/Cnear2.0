@@ -1,0 +1,139 @@
+body {
+  background: #111;
+  font-weight: 300;
+}
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/abstract-1264071_1280.png');
+  background-size: cover;
+  background-position: center;
+  text-rendering: optimizeLegibility;
+}
+.background:after {
+  content: '';
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid rgba(255,255,255,.2);
+}
+.wrapper {
+  display: none;
+}
+
+
+
+
+/* 2. Explosion/Images/Links Structure and Text
+--------------------------------------- */
+#explosion,
+#images {
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.explosion-byline,
+.images-byline {
+  position: fixed;
+  top: 63%;
+  left: 10%;
+  color: black;
+  max-width: 22%;
+  opacity: 0;
+}
+.images-byline-2 {
+  text-align: center;
+  position: fixed;
+  top: 93%;
+  left: 25%;
+  color: black;
+  width: 50%;
+  opacity: 0;
+}
+
+/* 3. Explosion Keyframe
+--------------------------------------- */
+#domExplosionList {
+  position: fixed;
+  width: 270px;
+  top: 100%;
+  right: 15%;
+  opacity: 0;
+}
+.dom-explosion-item {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color:black;
+}
+.dei-1  { top: 0; 
+          left: 0;
+        background-image: url(../image/1.jpg);  }
+.dei-2  { top: 0;   left: 70px; background-image: url(../image/2.jpg); }
+.dei-3  { top: 0;   left: 140px; background-image: url(../image/3.jpg); }
+.dei-4  { top: 0;   left: 210px;background-image: url(../image/4.jpg); }
+.dei-5  { top: 70px;   left: 0; background-image: url(../image/5.jpg); }
+.dei-6  { top: 70px;   left: 70px; background-image: url(../image/6.jpg);}
+.dei-7  { top: 70px;   left: 140px; background-image: url(../image/7.jpg);}
+.dei-8  { top: 70px;   left: 210px; background-image: url(../image/8.jpg);}
+.dei-9  { top: 140px;   left: 0; background-image: url(../image/9.jpg); }
+.dei-10 { top: 140px;   left: 70px; background-image: url(../image/10.jpg);}
+.dei-11 { top: 140px;   left: 140px; background-image: url(../image/11.jpg);}
+.dei-12 { top: 140px;   left: 210px; background-image: url(../image/12.jpg);}
+.dei-13 { top: 210px;   left: 0;  background-image: url(../image/13.jpg);}
+.dei-14 { top: 210px;   left: 70px; background-image: url(../image/14.jpg);}
+.dei-15 { top: 210px;   left: 140px; background-image: url(../image/15.jpg);}
+.dei-16 { top: 210px;   left: 210px; background-image: url(../image/16.jpg);}
+
+
+/* 3. Images Keyframe
+--------------------------------------- */
+.raw-page {
+  position: fixed;
+  width: 45%;
+  border-radius: 6px;
+  box-shadow: inset 0 0 1px rgba(255,255,255,.3);
+  border: 1px solid rgba(0,0,0,.2);
+  background-clip: padding-box;
+}
+#mediumHomepage {
+  top: 100%;
+  right: 5%;
+}
+.iphone {
+  position: fixed;
+  right: 40%;
+  top: 102%;
+  width: 16%;
+}
+.iphone-frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: 100%;
+  z-index: 2;
+}
+.iphone-viewport {
+  width: 83.5%;
+  height: 69.5%;
+  position: absolute;
+  top: 14%; 
+  left: 8%;
+  overflow: hidden;
+  background-color: #000;
+}
+.iphone-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#medium-profile-iphone {
+  z-index: 2;
+}
+
+
